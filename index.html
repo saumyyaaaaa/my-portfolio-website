@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saumya's Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/971f4df028.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certifications</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Saumya</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------about--------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>My name is Saumya. I am a junior year student who is currently pursuing their BTech in IT from the Indian Institute of Information Technology, Lucknow (IIIT Lucknow) - an Institute of National Importance. Since the initial days of my college I have had a growing interest in Web Development, however, recently I have also started exploring DSA and problem solving. I am also very proficient in the field of Designing.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>C++, Java</li>
+                        <li><span>Data Structures and Algorithms (DSA)</span><br>Intermediate Level</li>
+                        <li><span>Web Development</span><br>HTML, CSS, JavaScript, ReactJS, NodeJS, Git, GitHub</li>
+                        <!-- <li><span>Academic Coursework</span><br>OOPS, DBMS, Operating System, Software Engineering, System Design</li> -->
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Dec. 2022 - Apr. 2023</span><br>Co-Founder & Product Manager @Merchentiser (Startup)</li>
+                        <li><span>Jan. 2023 - Mar. 2023</span><br>Intern @Model Gaon (an initiative by IAS Officer, Dr. Heera Lal, to develop villages sustainably)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Sept. 2021 - June. 2025 (expected)</span><br>BTech in Information Technology from IIIT Lucknow</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- ---------------services--------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-file"></i>
+                <h2>Goldman Sachs SWE Virtual Experience Program - Forage</h2>
+                <p>Issued Jul. 2023</p>
+                <p><span class="heading">Skills : </span>Software Engineering Experience</p>
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_PoTkSk5G5XMELadHu_1689078187409_completion_certificate.pdf">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-microsoft"></i>
+                <h2>#Include&lt;Her&gt; Cohort 2.0 - Microsoft Azure</Her></h2>
+                <p>Issued Jun. 2023</p>
+                <p><span class="heading">Skills : </span>Fundamentals of Artificial Intelligence</p>
+                <a href="https://reskilll.com/certificate/sboa/cohort2/dbdca0aba4">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>Get Started with Figma - Coursera</h2>
+                <p>Issued Mar. 2022</p>
+                <p><span class="heading">Skills : </span>User Interface Design (UI Design), Web Design, Design Pattern, Design Thinking, Application Design</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/U4WTGKXTG75F?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=project">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------portfolio--------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/prj1.png">
+                <img src="Images/prj2.png">
+                <div class="layer">
+                    <h3>basic-instaweb-frontend-clone</h3>
+                    <p>This is my impressive React JS project — a skill-building endeavor where I've recreated the Instagram web frontend, meticulously replicating its features and design to deepen my understanding of React and its capabilities.</p>
+                    <a href="https://github.com/saumyyaaaaa/basic-instaweb-frontend-clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, voluptatem perspiciatis quisquam laudantium sapiente nulla minima eaque quibusdam et inventore natus dolorem consequatur reiciendis voluptate fugit quidem quos minus dolores?</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> -->
+            <div class="work">
+                <img src="Images/prj3.png">
+                <img src="Images/prj4.png">
+                <div class="layer">
+                    <h3>realtime-chat-application</h3>
+                    <p>This is a scalable, real-time chat application with Node JS, React JS, and ChatEngine.io that supports group chats, 1-on-1 chats, real-time messaging, image and file support, read receipts, and more!</p>
+                    <a href="https://github.com/saumyyaaaaa/realtime-chat-application"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------------contact--------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> lit2021058@iiitl.ac.in</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91-9026109237</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/saumya-14704b1b5/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/saumyyaaaaa"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/saumyyaaaaa/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/saumya.gour.127?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    
+                    
+                </div>
+                <a href="Images/Saumya_._Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Saumya.</p>
+    </div>
+</div>
+
+
+<!-- ---------------javascript--------------- -->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+
+
+</script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQLQlGl3APieaaaviudkYBVEa0CLaQqA6GwJHaayteB_LZmQOuncdoiaCXh1amgYt12g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
