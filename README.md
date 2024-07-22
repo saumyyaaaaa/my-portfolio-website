@@ -2,7 +2,7 @@ Showcasing my technical expertise through my dynamic and visually appealing port
 
 ## snapshots-of-the-project
 
-![1](![image](https://github.com/user-attachments/assets/d9f1e68c-d527-4667-97fc-67310a8f464e))
+![1](https://github.com/user-attachments/assets/fba69d11-0e62-4021-a964-1b32c8fee65d)
 
 ![2](https://github.com/saumyyaaaaa/my-portfolio-website/assets/88661225/b45c9a63-28eb-49d5-a389-87def6dbe814)
 
